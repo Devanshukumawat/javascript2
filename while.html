@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="d1"></p>
+    <p id="d2"></p>
+
+    <script>
+        let text = ""
+        let i = 0;
+        while(i<10){
+            text += "Number "+ i + "<br>"
+            i++
+        }
+        document.getElementById("d1").innerHTML=text
+
+        let txt = ""
+        x = 0
+        do {
+            if(x==7){break}
+            txt+="Number "+ x + "<br>"
+            x++;
+        }while(x<15);
+        document.getElementById("d2").innerHTML=txt
+    </script>
+
+</body>
+</html>

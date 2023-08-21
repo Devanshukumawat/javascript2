@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <p id="d1"></p>
+    <p id="d2"></p>
+
+    <script>
+        let text = "Small Changes eventually add up to huge results"
+        let find = text.search("add")
+        document.getElementById("d1").innerHTML=find
+        let change = text.replace("Changes","efforts")
+        document.getElementById("d2").innerHTML=change
+
+    </script>
+
+</body>
+</html>

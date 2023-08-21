@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="d1"></p>
+    <p id="d2"></p>
+    <p id="d3"></p>
+    <p id="d4"></p>
+    <p id="d5"></p>
+    <p id="d6"></p>
+    <p id="d7"></p>
+    <p id="d8"></p>
+    <p id="d9"></p>
+    <p id="d10"></p>
+    <p id="d11"></p>
+    <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("d1").innerHTML="length of array = "+fruits.length
+        document.getElementById("d2").innerHTML=fruits.toString()
+        document.getElementById("d3").innerHTML=fruits.join(" * ")
+        
+        const cars = ["Bmw","Audi","kia","Tata","Toyto","Mg"]
+        document.getElementById("d4").innerHTML="Remove last Item in array = "+ cars.pop();
+        document.getElementById("d5").innerHTML=cars;
+        document.getElementById("d6").innerHTML="Push methode return length = "+cars.push("Ferrari")
+        document.getElementById("d7").innerHTML=cars
+        document.getElementById("d8").innerHTML="Remove first item in array  = "+cars.shift()
+        document.getElementById("d9").innerHTML=cars
+        document.getElementById("d10").innerHTML="Unshift methode return length = "+cars.unshift("Volvo")
+        document.getElementById("d11").innerHTML=cars
+
+    </script>
+</body>
+</html>
